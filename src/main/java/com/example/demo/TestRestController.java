@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 		@GetMapping("/index")
 		public String index() {
-			return "Docker Test Successful";
+			return "Docker Test Successfully completed...";
 		}
 		
 		@Autowired
